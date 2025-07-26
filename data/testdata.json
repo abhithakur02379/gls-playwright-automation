@@ -1,0 +1,13 @@
+{
+    "firstName": "abhishek",
+    "lastName": "singh",
+    "street": "test street",
+    "houseNumber": "11",
+    "postCode": "11111",
+    "city": "Frankfurt",
+    "email": "abhithakur02379@gmail.com",
+    "parcelSize": "L",
+    "creditCardNumber": "4111111111111111",
+    "expiration": "01/30",
+    "cvv": "111"
+}
