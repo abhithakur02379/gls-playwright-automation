@@ -25,3 +25,9 @@ Following is the test cases list:<br>
 3. Validate user should be able to select different delivery options
 4. Validate user should be able to save the user details
 5. Validate user should be able to make a payment
+
+<h3> 4. Refrences </h3>
+
+1. Google
+2. Stackoverflow
+3. Medium 
