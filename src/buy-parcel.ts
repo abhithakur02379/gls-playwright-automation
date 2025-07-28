@@ -64,7 +64,11 @@ export class BuyParcelPage extends BasePage {
 
         await this.buyNowButton.click()
 
+        await this.paymentError.scrollIntoViewIfNeeded()
+
         await this.paymentError.isVisible()
+
+        expect(this.paymentError).toHaveText('Please select a payment method')
 
     }
 
