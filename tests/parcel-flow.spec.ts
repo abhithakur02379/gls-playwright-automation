@@ -4,7 +4,7 @@ import { BasePage } from '../src/base.page'
 import { AddParcelPage } from '../src/add-parcel'
 import { test } from '../fixtures/fixture';
 
-test.describe('Parcel Overview Flow', () => {
+test.describe('Parcel Flow', () => {
 
   test.beforeEach(async ({page, context}) => {
 
