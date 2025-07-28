@@ -34,8 +34,11 @@ export class BuyParcelPage extends BasePage {
 
 
     async verifyUserIsOnCheckOutPage() {
+
+        await expect(this.page).toHaveURL(/.*checkout/);
     
         expect(this.page.getByTestId('buyNowButton')).toBeVisible()
+
 
     }
 

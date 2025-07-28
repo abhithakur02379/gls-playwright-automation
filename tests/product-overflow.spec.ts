@@ -6,8 +6,6 @@ import { test } from '../fixtures/fixture';
 
 test.describe('Parcel Overview Flow', () => {
 
-  // let basePage: BasePage
-
   test.beforeEach(async ({page, context}) => {
 
     let basePage = new BasePage(page, context)
@@ -44,6 +42,8 @@ test.describe('Parcel Overview Flow', () => {
     await addParcelPage.clickCheckOut()
 
     await buyParcelPage.verifyUserIsOnCheckOutPage()
+
+    await addParcelPage.fillPersonalInformation()
 
     await buyParcelPage.saveUserDetails()
 
