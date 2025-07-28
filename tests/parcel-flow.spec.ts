@@ -66,6 +66,8 @@ test.describe('Parcel Flow', () => {
 
     await buyParcelPage.verifyUserIsOnCheckOutPage()
 
+    await addParcelPage.fillPersonalInformation()
+
     await buyParcelPage.saveUserDetails()
 
     await buyParcelPage.paymentErrorFromCard()
