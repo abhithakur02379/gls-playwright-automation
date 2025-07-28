@@ -33,4 +33,3 @@ npx playwright test
 ```console
 npx playwright show-report
 ```
-<p>Report will automatically be stored inside <b>playwright-report</b> folder and can be accessed at any time by manually opening the <b>index.html</b> file.</p>
